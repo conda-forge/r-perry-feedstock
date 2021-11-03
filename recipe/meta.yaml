@@ -1,4 +1,4 @@
-{% set version = '0.3.0' %}
+{% set version = "0.3.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,10 +10,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/perry_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/perry/perry_{{ version }}.tar.gz
-  sha256: 483f7486c49bbda0b595bc9acc34bad2c76cb4a23e8d31b1cb6deef4d8a9a43c
+  sha256: d88e38a863a9846af68ce0a2856b0de2df400d07c35c81e574b23968584b7130
 
 build:
-  merge_build_host: True  # [win]
+  merge_build_host: true  # [win]
   number: 0
   noarch: generic
   rpaths:
@@ -39,8 +39,7 @@ test:
 about:
   home: https://CRAN.R-project.org/package=perry
   license: GPL-2.0-or-later
-  summary: Tools that allow developers to write functions for prediction error estimation with
-    minimal programming effort and assist users with model selection in regression problems.
+  summary: Tools that allow developers to write functions for prediction error estimation with minimal programming effort and assist users with model selection in regression problems.
   license_family: GPL2
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
