@@ -1,11 +1,11 @@
-About r-perry
-=============
+About r-perry-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-perry-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=perry
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-perry-feedstock/blob/main/LICENSE.txt)
 
 Summary: Tools that allow developers to write functions for prediction error estimation with minimal programming effort and assist users with model selection in regression problems.
 
